@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width; initial-scale=1.0">
+<title>演示：跨浏览器兼容的HTML5视频音频播放器</title>
+<link rel="stylesheet" type="text/css" href="main.css" />
+<script src="html5media.min.js"></script>
+<style>
+.demo{margin:60px auto}
+.audio{margin-top:20px}
+</style>
+</head>
+
+<body>
+
+<div >
+        <video class="video" poster="观鸟.jpg" width="500" height="200" controls preload>			
+			<source src="movie.mp4" media="only screen and (max-device-width: 568px)"></source>		
+		</video>
+        
+        <audio class="audio" controls preload>
+			<source src="天下.mp3"></source>
+		</audio>
+   </div>
+</div>
+
+</body>
+</html>
